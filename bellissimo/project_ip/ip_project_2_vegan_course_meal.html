@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bellissimo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	 <link rel="icon" href="menu.png">
+	 	
+ <link rel="stylesheet" type="text/css" href="ip_project.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- google font family -->
+  <link href='https://fonts.googleapis.com/css?family=Tauri'>
+</head>
+<body>
+	 <div class="logo">
+ 	<a href="ip_project.html">
+  <img id="logo2" src="b73983b5-b9be-4572-a82d-fbbe4c15526f.png">
+  	<img src="barbecue1.png" alt="Bellissimo-Restaurant name">
+ 	</a>
+ </div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+  <button class="dropbtn">Menu<i id="caret-down" class="fa fa-caret-down"></i></button> 
+  <div class="dropdown-content">
+  	<a href="ip_project_2_first_course_meal.html"><i class="fa fa-cutlery"> First course & Starter</i></a>
+  	<a href="ip_project_2_second_course_meal.html"><i class="fa fa-cutlery"> Second course</i></a>
+  	<a href="ip_project_2_dessert_course_meal.html"><i class="fa fa-birthday-cake"></i> Dessert</a>
+    <a href="ip_project_2_drinks_course_meal.html"><i class="fa fa-beer"> Drinks</i></a>
+    <a href="ip_project_2_fastFood_course_meal.html">Fast Food</a>
+    <a href="ip_project_2_vegan_course_meal.html">Vegan</a>
+  </div>
+  </div> 
+  <a href="#about">About</a>
+  
+  <!-- when sign button is pressed, the pop up window opens up -->
+  <a onclick="document.getElementById('popup').style.display='block'" class="right-sign">Log in</a>
+
+<div id="popup" class="sign">
+  <form class="sign-content animate" action="/action_page.php">
+      <span onclick="document.getElementById('popup').style.display='none'" class="close-button" title="Close Modal">&times;</span>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" id="pwd" name="password" />
+      <span class="field-icon"><i id="eye" class="fa fa-eye"></i></span>
+      <div class="container">  
+      <button type="submit">Login</button>
+      </div>
+      <label>
+        <input type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('popup').style.display='none'" class="cancelButton">Cancel</button>         
+        <span class="psw"><a id="registration" href=""> Forgot password?</a></span>
+        <span class="psw2"><a id="registration" href=""> Registration</a></span>
+    </div>
+  </form>
+</div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelButton">Cancel</button>
+      <span class="psw">Forgot password?</span>
+      <span class="psw2">Registration</span>
+    </div>
+  </form>
+</div>
+<!-- 
+ <a href="ip_project_2_sign_in.html" class="right-sign">Sign</a> -->
+  <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div class="nameOfMeals">
+  <div class="nameOfMeals-content">
+     <img src="vegan_course_meal/1v.jpg" alt="FirstCourseMeal">
+    <div class="nameOfCardAndCost">
+      <h2> Fried mushroom</h2>
+      <p>59000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/2v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Champignons with suluguni on the brazier</h2>
+      <p>32000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/3v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Cimichangas with Piccadilly</h2>
+      <p>31000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/4v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Khachapuri in Adjarian</h2>
+      <p>36000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/5v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Broccoli with garlic</h2>
+      <p>32000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/6v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Hot pies with greens</h2>
+      <p>23000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/7v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Vegetable fireworks</h2>
+      <p>40000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/8v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Gutab with greens</h2>
+      <p>18000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/9v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Shiitake mushrooms in batter</h2>
+      <p>27000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/10v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Dofu with vegetables on a brazier
+</h2>
+      <p>38000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/11v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Quail eggs with dof</h2>
+      <p>48000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/12v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Potato cutlets with mushrooms</h2>
+      <p>28000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/13v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Mushrooms</h2>
+      <p>35000 sum</p>
+    </div>
+  </div>
+  <div class="nameOfMeals-content">
+    <img src="vegan_course_meal/14v.jpg" alt="Grilled Food">
+    <div class="nameOfCardAndCost">
+      <h2>Pintosa with vegetables</h2>
+      <p>30000 sum</p>
+    </div>
+  </div>
+</div>
+
+
+  <div class="footer ">
+    <div class="location">
+      <div class="location-content">
+      <h1>Bellissimo restaurant</h1>
+        <p><b>Location : </b>9, Ziyolilar str., M.Ulugbek district, Tashkent city</p>
+        <p><b>Phone : </b> +998942881761</p>
+        <p><b>Fax : </b> +998942881761</p>
+        <p><b>Email : </b><a href=""> dcqanoatovizzat@gmail.com</a></p>
+        <p><b>Website : </b><a href="">www.bellissimo.uz</a></p>
+      </div>
+    </div>
+    <div class="location">
+      <div class="about">
+      <h1>About us</h1>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Orders</a></li>
+        <li><a href="">Guests</a></li>
+        <li><a href="">Dishes</a></li>
+      </ul>
+      <div class="socialWebsite-content">
+  <a href="https://www.facebook.com/"><i class="a fa fa-facebook"></i></a>
+  <a href="https://twitter.com/"><i class="a fa fa-twitter"></i></a>
+  <a href="https://www.youtube.com/"><i class="a fa fa-youtube"></i></a>
+  <a href="https://www.instagram.com/"><i class="a fa fa-instagram"></i></a>
+  <a href="https://telegram.org/"><i class="a fa fa-telegram"></i></a>
+  </div>
+      </div>
+    </div>
+  <div class="location">
+    <h2>Open hours</h2>
+    <p id="openHours"><i id="openHoursIcon" class="fa fa-clock-o"></i>Monday-Sunday</br></p>
+    <p id="timeOpenHours">09:00-23:00</br></p>
+    <p id="openHours"><i id="openHoursIcon" class="fa fa-motorcycle"></i>Delivery</br></p>
+    <p id="timeOpenHours">09:00-23:00</p>
+  </div>
+  <div class="copyright">
+  <p><img class="copy" src="copyrightIcon2.png"> 2018 Bellissimo Restaurant</br>  All right reserved.</p>
+  </div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="ip_project.js"></script>
+<script type="text/javascript" src="topnavbar.js"></script>
+<!-- responsive navbar -->
+<!-- map has been started building -->
+<script type="text/javascript"  src="google_map.js">
+</script>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAn7U1stuOBVb5XCCQ0yZ4AswWeGS1mQo&callback=initMap">
+    </script>
+<!-- POPUP sign up page -->
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>

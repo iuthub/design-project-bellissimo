@@ -1,0 +1,5 @@
+<?php
+	$posts =array(
+		array(
+			))
+?>
