@@ -1,12 +1,12 @@
 # Internet Programming: Design Project Assignment
 
 Find `ip_design_project.pdf` file in this folder, and refer to all the instructions given there. 
-
-NAME:                     ID:                POSITION IN A TEAM:
-Abdurasulov Abdusaid  	  U1610010           BACK END DEVELOPER
-Izzatullo Kanoatov        U1610087           FRONT END DEVELOPER
-Mukhammadrasul Mukhtorov  U1610156     			 BACK END DEVELOPER
-Saidolim Maksumov 		    U1610197 			     BACK END DEVELOPER
-Shukhratbek Zukhriddinov  U1610232					 BACK END DEVELOPER
-
-Bellissimo --> http://dcqanoatovizzat.000webhostapp.com/
+<ul>
+<li>NAME:</li>                     <li>ID:</li>                <li>POSITION IN A TEAM:</li>
+<li>Abdurasulov Abdusaid</li>  	  <li>U1610010</li>           <li>BACK END DEVELOPER</li>
+<li>Izzatullo Kanoatov</li>        <li>U1610087</li>           <li>FRONT END DEVELOPER</li>
+<li>Mukhammadrasul Mukhtorov</li>  <li>U1610156</li>     			 <li>BACK END DEVELOPER</li>
+<li>Saidolim Maksumov</li> 		    <li>U1610197</li> 			     <li>BACK END DEVELOPER</li>
+<li>Shukhratbek Zukhriddinov</li>  <li>U1610232</li>					 <li>BACK END DEVELOPER</li>
+</ul>
+<span>Bellissimo --> http://dcqanoatovizzat.000webhostapp.com/<span>
