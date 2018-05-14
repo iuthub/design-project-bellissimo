@@ -8,3 +8,4 @@ Izzatullo Kanoatov        U1610087           FRONT END DEVELOPER
 Mukhammadrasul Mukhtorov  U1610156     			 BACK END DEVELOPER
 Saidolim Maksumov 		    U1610197 			     BACK END DEVELOPER
 Shukhratbek Zukhriddinov  U1610232					 BACK END DEVELOPER
+Bellissimo --> http://dcqanoatovizzat.000webhostapp.com/
